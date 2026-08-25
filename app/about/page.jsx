@@ -66,6 +66,46 @@ export default function About() {
 
       <section className="section dark">
         <div className="wrap">
+          <span className="slot" data-reveal>Why we started</span>
+          <h2 data-reveal data-delay={1}>Built from a simple frustration.</h2>
+          <p className="sub" style={{ maxWidth: 760 }} data-reveal data-delay={2}>
+            Everyone knows the break-room vending machine that&apos;s half-empty,
+            eats your dollar, and only takes exact change. The national operators
+            treat each location like a number on a route — restock when they get
+            around to it, and good luck reaching a human when something breaks. We
+            knew a local business could simply do it better: show up on time,
+            stock what people actually want, take a tap of a card, and answer the
+            phone. So we built one.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <span className="slot" data-reveal>What sets us apart</span>
+          <h2 data-reveal data-delay={1}>Local, hands-on, and easy to reach.</h2>
+          <div className="grid-3">
+            <div className="card" data-reveal data-delay={1}>
+              <span className="slot">C1</span>
+              <h3>You get an owner, not a call center</h3>
+              <p>When you call, you reach Emily or Jordan — the people who actually run the business, not a ticket queue three states away.</p>
+            </div>
+            <div className="card" data-reveal data-delay={2}>
+              <span className="slot">C2</span>
+              <h3>We&apos;re in your community</h3>
+              <p>We live and work right here on the Emerald Coast. Your machine is minutes away, not part of a route that swings by twice a month.</p>
+            </div>
+            <div className="card" data-reveal data-delay={3}>
+              <span className="slot">C3</span>
+              <h3>Service is the whole product</h3>
+              <p>Anyone can drop a machine in a corner. We win by keeping it full, keeping it working, and making it effortless for you.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section dark">
+        <div className="wrap">
           <span className="slot" data-reveal>How we operate</span>
           <h2 data-reveal data-delay={1}>Three commitments, kept every week.</h2>
           <div className="grid-3">

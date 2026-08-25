@@ -90,7 +90,7 @@ export default function HealthyVending() {
       <section className="cta-band">
         <div className="wrap">
           <h2>Want a healthier machine in your space?</h2>
-          <Link href="/contact" className="btn">Get a free placement quote</Link>
+          <Link href="/contact" className="btn">Request a Free Machine</Link>
         </div>
       </section>
     </>

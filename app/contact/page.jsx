@@ -12,7 +12,7 @@ export default function Contact() {
       <section className="page-hero">
         <div className="wrap">
           <span className="slot">Contact</span>
-          <h1>Get your free placement quote.</h1>
+          <h1>Request your free machine.</h1>
           <p>
             Tell us a little about your location and we'll follow up with a
             recommendation — usually within one business day.

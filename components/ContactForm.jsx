@@ -34,7 +34,7 @@ export default function ContactForm() {
         `Email: ${data.get("email") || ""}\n` +
         `Phone: ${data.get("phone") || ""}\n\n` +
         `${data.get("message") || ""}`;
-      const subject = `Vending quote request — ${data.get("business") || data.get("name") || "New lead"}`;
+      const subject = `Vending machine request — ${data.get("business") || data.get("name") || "New lead"}`;
       window.location.href =
         `mailto:${LEAD_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       setStatus("sent");
@@ -105,7 +105,7 @@ export default function ContactForm() {
       </div>
       <div style={{ marginTop: 24 }}>
         <button type="submit" className="btn btn-orange" disabled={status === "sending"}>
-          {status === "sending" ? "Sending…" : "Request my free quote"}
+          {status === "sending" ? "Sending…" : "Request my free machine"}
         </button>
       </div>
       {status === "error" && (

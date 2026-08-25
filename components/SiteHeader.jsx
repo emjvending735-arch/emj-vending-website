@@ -50,7 +50,7 @@ export default function SiteHeader() {
           ))}
           <a href="tel:+19138509092" className="nav-phone">Call or text (913) 850-9092</a>
           <Link href="/contact" className="btn btn-orange" style={{ padding: "10px 20px", fontSize: 15 }}>
-            Get a quote
+            Request a Machine
           </Link>
         </nav>
 
@@ -91,7 +91,7 @@ export default function SiteHeader() {
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
           <a href="tel:+19138509092" className="mobile-phone">Call or text (913) 850-9092</a>
           <Link href="/contact" className="btn btn-orange" onClick={() => setOpen(false)}>
-            Get a free quote
+            Request a Free Machine
           </Link>
         </nav>
       </div>

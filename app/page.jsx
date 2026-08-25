@@ -6,12 +6,22 @@ import InstallGallery from "@/components/InstallGallery";
 export default function Home() {
   return (
     <>
+      <div className="top-contact-bar">
+        <div className="wrap">
+          <span>Free vending for Okaloosa &amp; Santa Rosa County businesses</span>
+          <span className="top-contact-links">
+            <a href="tel:+19138509092">Call or text (913) 850-9092</a>
+            <span className="sep" aria-hidden="true">·</span>
+            <a href="mailto:EmJVending735@gmail.com">EmJVending735@gmail.com</a>
+          </span>
+        </div>
+      </div>
       <section className="hero dark">
         <div className="wrap">
           <div>
             <span className="slot">Okaloosa &amp; Santa Rosa Counties, FL</span>
             <h1>
-              Break rooms that <em>stock themselves.</em>
+              Snacks &amp; Drinks, <em>On Us.</em>
             </h1>
             <p className="lede">
               EmJ Vending places, stocks, and services modern card-reader vending
@@ -19,7 +29,7 @@ export default function Home() {
               the spot. We handle everything else.
             </p>
             <div className="hero-ctas">
-              <Link href="/contact" className="btn btn-orange">Get a free placement quote</Link>
+              <Link href="/contact" className="btn btn-orange">Request a Free Machine</Link>
               <a href="tel:+19138509092" className="btn btn-ghost">Call or text us</a>
             </div>
           </div>
@@ -165,7 +175,7 @@ export default function Home() {
       <section className="cta-band">
         <div className="wrap">
           <h2>Ready to put your break room to work?</h2>
-          <Link href="/contact" className="btn">Get a free placement quote</Link>
+          <Link href="/contact" className="btn">Request a Free Machine</Link>
         </div>
       </section>
     </>

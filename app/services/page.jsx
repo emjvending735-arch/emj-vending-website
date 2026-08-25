@@ -102,7 +102,7 @@ export default function Services() {
       <section className="cta-band">
         <div className="wrap">
           <h2 data-reveal data-delay={1}>Get your free site assessment.</h2>
-          <Link href="/contact" className="btn">Request a quote</Link>
+          <Link href="/contact" className="btn">Request a Free Machine</Link>
         </div>
       </section>
     </>
