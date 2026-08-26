@@ -38,7 +38,7 @@ export default function Faq({ items }) {
   return (
     <div className="faq">
       {faqs.map((f, i) => (
-        <div key={i} className={`faq-item${open === i ? " open" : ""}`} data-reveal data-delay={(i % 3) + 1}>
+        <div key={i} className={`faq-item${open === i ? " open" : ""}`}>
           <button
             className="faq-q"
             aria-expanded={open === i}
